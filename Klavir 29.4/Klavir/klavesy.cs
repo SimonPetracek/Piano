@@ -15,8 +15,9 @@ namespace Klavir
         public int FormWhiteSelector { get; set; }
         public int FormBlackSelector { get; set; }
         public int Black { get; set; }
-        int[] pole = { 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0 };
-        char[] pismenaWhite = { 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'y', 'x', 'c', 'v', 'b', 'n', 'm', 'q', 'w', 'e', 'r', 't', 'z', 'u', 'i'};
+        int[] array = { 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0 };
+        public char[] charWhite = { 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Y', 'X', 'C', 'V', 'B', 'N', 'M', 'Q', 'W', 'E', 'R', 'T', 'Z', 'U', 'I'};
+        string[] stringBlack = { "alt + q", "alt + w", "alt + e", "alt + r", "alt + t", "alt + z", "alt + u", "alt + i", "alt + o", "alt + p", "alt + a", "alt + s", "alt + d", "alt + f", "alt + g", "alt + h", "alt + j"}; 
         public klavesy()
         {
 
@@ -29,11 +30,11 @@ namespace Klavir
                 Rectangle whiterec = new Rectangle(space, 0, 40, 200);
                 g.FillRectangle(Brushes.White, whiterec);
                 g.DrawRectangle(Pens.Black, whiterec);
-                g.DrawString(pismenaWhite[i].ToString(), new Font("Arial", 10), new SolidBrush(Color.Black), 15 + space, 180);
+                g.DrawString(charWhite[i].ToString(), new Font("Arial", 10), new SolidBrush(Color.Black), 15 + space, 180);
             }
             for (int i = 0; i < Black; i++)
             {
-               if (pole[i]== 1)
+               if (array[i]== 1)
                  {
                    int space = i * 40;
                    Rectangle blackrec = new Rectangle(25 + space, 0, 30, 130);
@@ -51,7 +52,7 @@ namespace Klavir
                     Rectangle whiterec = new Rectangle(space, 0, 40, 200);
                     g.FillRectangle(Brushes.Gray, whiterec);
                     g.DrawRectangle(Pens.Black, whiterec);
-                    g.DrawString(pismenaWhite[i].ToString(), new Font("Arial", 10), new SolidBrush(Color.Black), 15 + space, 180);
+                    g.DrawString(charWhite[i].ToString(), new Font("Arial", 10), new SolidBrush(Color.Black), 15 + space, 180);
                 }
                 else
                 {
@@ -59,28 +60,51 @@ namespace Klavir
                     Rectangle whiterec = new Rectangle(space, 0, 40, 200);
                     g.FillRectangle(Brushes.White, whiterec);
                     g.DrawRectangle(Pens.Black, whiterec);
-                    g.DrawString(pismenaWhite[i].ToString(), new Font("Arial", 10), new SolidBrush(Color.Black), 15 + space, 180);
+                    g.DrawString(charWhite[i].ToString(), new Font("Arial", 10), new SolidBrush(Color.Black), 15 + space, 180);
                 }
             }
             for (int i = 0; i < Black; i++)
             {
-                if (pole[i] == 1)
+                if (array[i] == 1)
                 {
                     int space = i * 40;
                     Rectangle blackrec = new Rectangle(25 + space, 0, 30, 130);
                     g.FillRectangle(Brushes.Black, blackrec);
+                    
                 }
             }
         } 
         public void SelectedBlackKey(Graphics g)
         {
+            Brush Text = new SolidBrush(Color.FromArgb(33, 34, 35));
             for (int i = 0; i < White; i++)
             {
                 int space = i * 40;
                 Rectangle whiterec = new Rectangle(space, 0, 40, 200);
                 g.FillRectangle(Brushes.White, whiterec);
                 g.DrawRectangle(Pens.Black, whiterec);
-                g.DrawString(pismenaWhite[i].ToString(), new Font("Arial", 10), new SolidBrush(Color.Black), 15 + space, 180);
+                g.DrawString(charWhite[i].ToString(), new Font("Arial", 10), new SolidBrush(Color.Black), 15 + space, 180);
+            }
+            for (int i = 0; i < Black; i++)
+            {
+                if (i == this.FormBlackSelector)
+                {
+                    if (array[i] == 1)
+                    {
+                        int space = i * 40;
+                        Rectangle blackrec = new Rectangle(25 + space, 0, 30, 130);
+                        g.FillRectangle(Brushes.Black, blackrec);
+                    }
+                }
+                else
+                {
+                    if (array[i] == 1)
+                    {
+                        int space = i * 40;
+                        Rectangle blackrec = new Rectangle(25 + space, 0, 30, 130);
+                        g.FillRectangle(Text, blackrec);
+                    }
+                }
             }
         }
     }

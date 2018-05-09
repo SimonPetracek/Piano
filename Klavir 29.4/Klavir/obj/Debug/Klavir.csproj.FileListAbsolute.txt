@@ -48,3 +48,13 @@ C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\bin\Debug\Klavir.exe
 C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\bin\Debug\Klavir.pdb
 C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.Properties.Resources.resources
 C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.csproj.CoreCompileInputs.cache
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\bin\Debug\Klavir.exe.config
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\bin\Debug\Klavir.exe
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\bin\Debug\Klavir.pdb
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\obj\Debug\Klavir.csprojResolveAssemblyReference.cache
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\obj\Debug\Klavir.Form1.resources
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\obj\Debug\Klavir.Properties.Resources.resources
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\obj\Debug\Klavir.csproj.GenerateResource.cache
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\obj\Debug\Klavir.csproj.CoreCompileInputs.cache
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\obj\Debug\Klavir.exe
+C:\Users\Šimon\Desktop\Piano\Klavir 29.4\Klavir\obj\Debug\Klavir.pdb

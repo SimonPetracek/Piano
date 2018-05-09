@@ -32,9 +32,6 @@ namespace Klavir
             this.klavesy.White = 24;
             this.klavesy.Black = this.klavesy.White;
             this.klavesy.FormWhiteSelector = -1;
-
-
-
         }
 
 
@@ -45,150 +42,14 @@ namespace Klavir
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            
-            if (e.KeyCode.ToString() == "A")
+            for (int i = 0; i < this.klavesy.White; i++)
             {
-                this.klavesy.FormWhiteSelector = 0;
-                CheckFormSelector();                
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "S")
-            {
-                this.klavesy.FormWhiteSelector = 1;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "D")
-            {
-                this.klavesy.FormWhiteSelector = 2;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "F")
-            {
-                this.klavesy.FormWhiteSelector = 3;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "G")
-            {
-                this.klavesy.FormWhiteSelector = 4;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "H")
-            {
-                this.klavesy.FormWhiteSelector = 5;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "J")
-            {
-                this.klavesy.FormWhiteSelector = 6;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "K")
-            {
-                this.klavesy.FormWhiteSelector = 7;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "L")
-            {
-                this.klavesy.FormWhiteSelector = 8;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "Y")
-            {
-                this.klavesy.FormWhiteSelector = 9;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "X")
-            {
-                this.klavesy.FormWhiteSelector = 10;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "C")
-            {
-                this.klavesy.FormWhiteSelector = 11;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "V")
-            {
-                this.klavesy.FormWhiteSelector = 12;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "B")
-            {
-                this.klavesy.FormWhiteSelector = 13;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "N")
-            {
-                this.klavesy.FormWhiteSelector = 14;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "M")
-            {
-                this.klavesy.FormWhiteSelector = 15;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "Q")
-            {
-                this.klavesy.FormWhiteSelector = 16;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "W")
-            {
-                this.klavesy.FormWhiteSelector = 17;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "E")
-            {
-                this.klavesy.FormWhiteSelector = 18;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "R")
-            {
-                this.klavesy.FormWhiteSelector = 19;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "T")
-            {
-                this.klavesy.FormWhiteSelector = 20;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "Z")
-            {
-                this.klavesy.FormWhiteSelector = 21;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "U")
-            {
-                this.klavesy.FormWhiteSelector = 22;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
-            }
-            if (e.KeyCode.ToString() == "I")
-            {
-                this.klavesy.FormWhiteSelector = 23;
-                CheckFormSelector();
-                this.pictureBox_Klavesy.Refresh();
+                if (e.KeyCode.ToString() == this.klavesy.charWhite[i].ToString())
+                {
+                    this.klavesy.FormWhiteSelector = i;
+                    CheckFormSelector();
+                    this.pictureBox_Klavesy.Refresh();
+                }
             }
         }
         private void Form1_KeyUp(object sender, KeyEventArgs e)
