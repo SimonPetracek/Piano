@@ -1,0 +1,50 @@
+X:\třeťák no\Programování\Klavir\Klavir\bin\Debug\Klavir.exe.config
+X:\třeťák no\Programování\Klavir\Klavir\bin\Debug\Klavir.exe
+X:\třeťák no\Programování\Klavir\Klavir\bin\Debug\Klavir.pdb
+X:\třeťák no\Programování\Klavir\Klavir\obj\Debug\Klavir.csprojResolveAssemblyReference.cache
+X:\třeťák no\Programování\Klavir\Klavir\obj\Debug\Klavir.Form1.resources
+X:\třeťák no\Programování\Klavir\Klavir\obj\Debug\Klavir.Properties.Resources.resources
+X:\třeťák no\Programování\Klavir\Klavir\obj\Debug\Klavir.csproj.GenerateResource.Cache
+X:\třeťák no\Programování\Klavir\Klavir\obj\Debug\Klavir.csproj.CoreCompileInputs.cache
+X:\třeťák no\Programování\Klavir\Klavir\obj\Debug\Klavir.exe
+X:\třeťák no\Programování\Klavir\Klavir\obj\Debug\Klavir.pdb
+C:\Users\Šimon\Desktop\Klavir\Klavir\bin\Debug\Klavir.exe.config
+C:\Users\Šimon\Desktop\Klavir\Klavir\bin\Debug\Klavir.exe
+C:\Users\Šimon\Desktop\Klavir\Klavir\bin\Debug\Klavir.pdb
+C:\Users\Šimon\Desktop\Klavir\Klavir\obj\Debug\Klavir.csprojResolveAssemblyReference.cache
+C:\Users\Šimon\Desktop\Klavir\Klavir\obj\Debug\Klavir.Form1.resources
+C:\Users\Šimon\Desktop\Klavir\Klavir\obj\Debug\Klavir.Properties.Resources.resources
+C:\Users\Šimon\Desktop\Klavir\Klavir\obj\Debug\Klavir.csproj.GenerateResource.cache
+C:\Users\Šimon\Desktop\Klavir\Klavir\obj\Debug\Klavir.csproj.CoreCompileInputs.cache
+C:\Users\Šimon\Desktop\Klavir\Klavir\obj\Debug\Klavir.exe
+C:\Users\Šimon\Desktop\Klavir\Klavir\obj\Debug\Klavir.pdb
+X:\třeťák no\Programování\Klavir 22.4\Klavir\bin\Debug\Klavir.exe.config
+X:\třeťák no\Programování\Klavir 22.4\Klavir\bin\Debug\Klavir.exe
+X:\třeťák no\Programování\Klavir 22.4\Klavir\bin\Debug\Klavir.pdb
+X:\třeťák no\Programování\Klavir 22.4\Klavir\obj\Debug\Klavir.csprojResolveAssemblyReference.cache
+X:\třeťák no\Programování\Klavir 22.4\Klavir\obj\Debug\Klavir.Form1.resources
+X:\třeťák no\Programování\Klavir 22.4\Klavir\obj\Debug\Klavir.Properties.Resources.resources
+X:\třeťák no\Programování\Klavir 22.4\Klavir\obj\Debug\Klavir.csproj.GenerateResource.Cache
+X:\třeťák no\Programování\Klavir 22.4\Klavir\obj\Debug\Klavir.csproj.CoreCompileInputs.cache
+X:\třeťák no\Programování\Klavir 22.4\Klavir\obj\Debug\Klavir.exe
+X:\třeťák no\Programování\Klavir 22.4\Klavir\obj\Debug\Klavir.pdb
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\bin\Debug\Klavir.exe.config
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\bin\Debug\Klavir.exe
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\bin\Debug\Klavir.pdb
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\obj\Debug\Klavir.csprojResolveAssemblyReference.cache
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\obj\Debug\Klavir.Form1.resources
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\obj\Debug\Klavir.Properties.Resources.resources
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\obj\Debug\Klavir.csproj.GenerateResource.cache
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\obj\Debug\Klavir.csproj.CoreCompileInputs.cache
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\obj\Debug\Klavir.exe
+C:\Users\Šimon\Desktop\Klavir 22.4\Klavir\obj\Debug\Klavir.pdb
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.csprojResolveAssemblyReference.cache
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.Form1.resources
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.csproj.GenerateResource.cache
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.exe
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.pdb
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\bin\Debug\Klavir.exe.config
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\bin\Debug\Klavir.exe
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\bin\Debug\Klavir.pdb
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.Properties.Resources.resources
+C:\Users\Šimon\Desktop\Klavir 29.4\Klavir\obj\Debug\Klavir.csproj.CoreCompileInputs.cache
